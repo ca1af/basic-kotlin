@@ -10,10 +10,10 @@ public class Person {
     this.name = name;
   }
 
+  @Nullable
   public String getName() {
     return name;
   }
-
 }
 
 
