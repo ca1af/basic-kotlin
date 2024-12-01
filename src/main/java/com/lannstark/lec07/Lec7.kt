@@ -6,6 +6,7 @@ import java.io.FileReader
 
 fun main() {
     foo()
+    use()
 }
 
 private fun parseInt(input: String): Int? {
