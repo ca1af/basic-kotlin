@@ -1,5 +1,7 @@
 package com.lannstark.lec12
 
+import com.lannstark.lec13.getCountry
+
 open class Lec12 {
     private companion object Factory : Movable {
         private const val FOO = "FOO"
@@ -29,4 +31,7 @@ fun main() {
             TODO("Not yet implemented")
         }
     }
+
+    val china = getCountry("CHINA")
+    println(china)
 }
