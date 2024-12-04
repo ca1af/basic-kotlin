@@ -22,4 +22,10 @@ public class Fruit {
     return this.name.equals("사과");
   }
 
+  @Override
+  public String toString() {
+    return "Fruit{" +
+            "name='" + name + '\'' +
+            '}';
+  }
 }
